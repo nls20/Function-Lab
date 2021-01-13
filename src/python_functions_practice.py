@@ -62,3 +62,7 @@ def volume_of_cube(length):
 def reverse_string(word):
     return word[::-1]
 
+def temp_converter(f_temp):
+    return (f_temp - 32) * 5 / 9
+
+    

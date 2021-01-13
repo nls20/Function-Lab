@@ -63,7 +63,7 @@ class TestPythonFunctionPractice(unittest.TestCase):
         self.assertEqual("Apr", fourth_month_string)
 
 
-    def test_number_to_short_month_name__month_10(self):
+    def te st_number_to_short_month_name__month_10(self):
         tenth_month_string = number_to_short_month_name(10)
         self.assertEqual("Oct", tenth_month_string)
 
@@ -84,8 +84,8 @@ class TestPythonFunctionPractice(unittest.TestCase):
     # Given a value in farenheit, convert this into celsius.
     @unittest.skip("delete this line to run the test")
     def test_fahrenheit_to_celsius(self):
-        # add test code here
-        pass
+        celcius_temp = f_temp(212)
+        self.assertEqual(100, celcius_temp)
 
 
 if __name__ == '__main__':
