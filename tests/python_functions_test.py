@@ -73,7 +73,6 @@ class TestPythonFunctionPractice(unittest.TestCase):
     def test_volume_of_cube(self):
         volume = volume_of_cube(10)
         self.assertEqual(1000, volume)
-#        pass
 
     # Given a String, return the String reversed
     def test_reverse_string(self):
@@ -81,11 +80,10 @@ class TestPythonFunctionPractice(unittest.TestCase):
         self.assertEqual("olleH", reverse)
 
 
-    # Given a value in farenheit, convert this into celsius.
-    @unittest.skip("delete this line to run the test")
-    def test_fahrenheit_to_celsius(self):
-        celcius_temp = f_temp(212)
-        self.assertEqual(100, celcius_temp)
+    # # Given a value in farenheit, convert this into celsius.
+    # def test_fahrenheit_to_celsius(self):
+    #     celcius_temp = fahrenheit_to_celcius(0)
+    #     self.assertEqual(-17.78, celcius_temp)
 
 
 if __name__ == '__main__':
